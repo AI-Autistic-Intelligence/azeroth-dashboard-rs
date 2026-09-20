@@ -1,1 +1,22 @@
-/target
+# Rust build artifacts
+/target/
+**/*.rs.bk
+
+# Trunk build artifacts
+/frontend/dist/
+/frontend/.trunk/
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db

@@ -326,6 +326,7 @@ dependencies = [
  "axum 0.7.9",
  "ferrox-app",
  "ferrox-config",
+ "ferrox-front-charts",
  "ferrox-utils",
  "lettre",
  "rand 0.8.8",
@@ -750,6 +751,25 @@ dependencies = [
  "serde",
  "serde_json",
  "thiserror 1.0.69",
+]
+
+[[package]]
+name = "ferrox-front-charts"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ca7a6f252542396b7ce36af3b7f0d9bca32ea0159b3975220ae1f9e3d3863b1f"
+dependencies = [
+ "ferrox-front-core",
+]
+
+[[package]]
+name = "ferrox-front-core"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a0bd6a9cb06fefba794cebb83b96de2629a7bf719c081aa1f718b637f333f93e"
+dependencies = [
+ "wasm-bindgen",
+ "web-sys",
 ]
 
 [[package]]

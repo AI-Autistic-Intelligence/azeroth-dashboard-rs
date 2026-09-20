@@ -15,6 +15,7 @@ tracing-subscriber = "0.3"
 ferrox-app = "*"
 ferrox-utils = "*"
 ferrox-config = "*"
+ferrox-front-charts = "*"
 
 tower-http = { version = "0.5", features = ["cors"] }
 reqwest = { version = "0.13.5", features = ["json"] }

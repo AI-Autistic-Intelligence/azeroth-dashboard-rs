@@ -13,6 +13,7 @@ use sysinfo::System;
 use rand::Rng;
 use std::time::{Instant, Duration};
 use lettre::{Message, SmtpTransport, Transport, transport::smtp::authentication::Credentials};
+use ferrox_front_charts::*; // Integrates the charts component
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct DashboardConfig {
